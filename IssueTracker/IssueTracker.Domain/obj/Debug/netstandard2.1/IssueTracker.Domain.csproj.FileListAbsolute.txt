@@ -1,0 +1,9 @@
+D:\IssueTracker\IssueTracker\IssueTracker.Domain\bin\Debug\netstandard2.1\IssueTracker.Domain.deps.json
+D:\IssueTracker\IssueTracker\IssueTracker.Domain\bin\Debug\netstandard2.1\IssueTracker.Domain.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Domain\bin\Debug\netstandard2.1\IssueTracker.Domain.pdb
+D:\IssueTracker\IssueTracker\IssueTracker.Domain\obj\Debug\netstandard2.1\IssueTracker.Domain.csprojAssemblyReference.cache
+D:\IssueTracker\IssueTracker\IssueTracker.Domain\obj\Debug\netstandard2.1\IssueTracker.Domain.csproj.CoreCompileInputs.cache
+D:\IssueTracker\IssueTracker\IssueTracker.Domain\obj\Debug\netstandard2.1\IssueTracker.Domain.AssemblyInfoInputs.cache
+D:\IssueTracker\IssueTracker\IssueTracker.Domain\obj\Debug\netstandard2.1\IssueTracker.Domain.AssemblyInfo.cs
+D:\IssueTracker\IssueTracker\IssueTracker.Domain\obj\Debug\netstandard2.1\IssueTracker.Domain.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Domain\obj\Debug\netstandard2.1\IssueTracker.Domain.pdb

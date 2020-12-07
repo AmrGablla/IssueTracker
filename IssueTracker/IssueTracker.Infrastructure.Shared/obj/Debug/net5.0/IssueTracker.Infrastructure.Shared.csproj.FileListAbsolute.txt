@@ -1,0 +1,17 @@
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\bin\Debug\net5.0\IssueTracker.Infrastructure.Shared.deps.json
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\bin\Debug\net5.0\IssueTracker.Infrastructure.Shared.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\bin\Debug\net5.0\ref\IssueTracker.Infrastructure.Shared.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\bin\Debug\net5.0\IssueTracker.Infrastructure.Shared.pdb
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\bin\Debug\net5.0\IssueTracker.Application.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\bin\Debug\net5.0\IssueTracker.Domain.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\bin\Debug\net5.0\IssueTracker.Application.pdb
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\bin\Debug\net5.0\IssueTracker.Domain.pdb
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\obj\Debug\net5.0\IssueTracker.Infrastructure.Shared.csprojAssemblyReference.cache
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\obj\Debug\net5.0\IssueTracker.Infrastructure.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\obj\Debug\net5.0\IssueTracker.Infrastructure.Shared.AssemblyInfoInputs.cache
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\obj\Debug\net5.0\IssueTracker.Infrastructure.Shared.AssemblyInfo.cs
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\obj\Debug\net5.0\IssueTracker.Infrastructure.Shared.csproj.CoreCompileInputs.cache
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\obj\Debug\net5.0\IssueTracker.Infrastructure.Shared.csproj.CopyComplete
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\obj\Debug\net5.0\IssueTracker.Infrastructure.Shared.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\obj\Debug\net5.0\ref\IssueTracker.Infrastructure.Shared.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Shared\obj\Debug\net5.0\IssueTracker.Infrastructure.Shared.pdb

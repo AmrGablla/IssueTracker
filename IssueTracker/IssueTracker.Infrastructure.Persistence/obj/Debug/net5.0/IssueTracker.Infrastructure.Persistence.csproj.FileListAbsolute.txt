@@ -1,0 +1,17 @@
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\bin\Debug\net5.0\IssueTracker.Infrastructure.Persistence.deps.json
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\bin\Debug\net5.0\IssueTracker.Infrastructure.Persistence.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\bin\Debug\net5.0\ref\IssueTracker.Infrastructure.Persistence.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\bin\Debug\net5.0\IssueTracker.Infrastructure.Persistence.pdb
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\bin\Debug\net5.0\IssueTracker.Application.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\bin\Debug\net5.0\IssueTracker.Domain.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\bin\Debug\net5.0\IssueTracker.Application.pdb
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\bin\Debug\net5.0\IssueTracker.Domain.pdb
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\obj\Debug\net5.0\IssueTracker.Infrastructure.Persistence.csprojAssemblyReference.cache
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\obj\Debug\net5.0\IssueTracker.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\obj\Debug\net5.0\IssueTracker.Infrastructure.Persistence.AssemblyInfoInputs.cache
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\obj\Debug\net5.0\IssueTracker.Infrastructure.Persistence.AssemblyInfo.cs
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\obj\Debug\net5.0\IssueTracker.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\obj\Debug\net5.0\IssueTracker.Infrastructure.Persistence.csproj.CopyComplete
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\obj\Debug\net5.0\IssueTracker.Infrastructure.Persistence.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\obj\Debug\net5.0\ref\IssueTracker.Infrastructure.Persistence.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Infrastructure.Persistence\obj\Debug\net5.0\IssueTracker.Infrastructure.Persistence.pdb

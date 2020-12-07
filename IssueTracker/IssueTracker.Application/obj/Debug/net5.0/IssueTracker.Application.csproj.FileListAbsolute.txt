@@ -1,0 +1,15 @@
+D:\IssueTracker\IssueTracker\IssueTracker.Application\bin\Debug\net5.0\IssueTracker.Application.deps.json
+D:\IssueTracker\IssueTracker\IssueTracker.Application\bin\Debug\net5.0\IssueTracker.Application.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Application\bin\Debug\net5.0\ref\IssueTracker.Application.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Application\bin\Debug\net5.0\IssueTracker.Application.pdb
+D:\IssueTracker\IssueTracker\IssueTracker.Application\bin\Debug\net5.0\IssueTracker.Domain.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Application\bin\Debug\net5.0\IssueTracker.Domain.pdb
+D:\IssueTracker\IssueTracker\IssueTracker.Application\obj\Debug\net5.0\IssueTracker.Application.csprojAssemblyReference.cache
+D:\IssueTracker\IssueTracker\IssueTracker.Application\obj\Debug\net5.0\IssueTracker.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\IssueTracker\IssueTracker\IssueTracker.Application\obj\Debug\net5.0\IssueTracker.Application.AssemblyInfoInputs.cache
+D:\IssueTracker\IssueTracker\IssueTracker.Application\obj\Debug\net5.0\IssueTracker.Application.AssemblyInfo.cs
+D:\IssueTracker\IssueTracker\IssueTracker.Application\obj\Debug\net5.0\IssueTracker.Application.csproj.CoreCompileInputs.cache
+D:\IssueTracker\IssueTracker\IssueTracker.Application\obj\Debug\net5.0\IssueTracker.Application.csproj.CopyComplete
+D:\IssueTracker\IssueTracker\IssueTracker.Application\obj\Debug\net5.0\IssueTracker.Application.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Application\obj\Debug\net5.0\ref\IssueTracker.Application.dll
+D:\IssueTracker\IssueTracker\IssueTracker.Application\obj\Debug\net5.0\IssueTracker.Application.pdb
