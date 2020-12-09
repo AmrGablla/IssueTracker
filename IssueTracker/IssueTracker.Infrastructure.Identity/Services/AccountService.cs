@@ -81,17 +81,12 @@ namespace IssueTracker.Infrastructure.Identity.Services
 
         public async Task<Response<string>> RegisterAsync(RegisterRequest request, string origin)
         {
-            var userWithSameUserName = await _userManager.FindByNameAsync(request.UserName);
-            if (userWithSameUserName != null)
-            {
-                throw new ApiException($"Username '{request.UserName}' is already taken.");
-            }
+
             var user = new ApplicationUser
             {
                 Email = request.Email,
-                FirstName = request.FirstName,
-                LastName = request.LastName,
-                UserName = request.UserName
+                FullName = request.FullName,
+                UserName = request.Email
             };
             var userWithSameEmail = await _userManager.FindByEmailAsync(request.Email);
             if (userWithSameEmail == null)

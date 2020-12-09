@@ -22,4 +22,7 @@
 <ItemGroup>
   <ProjectReference Include="..\IssueTracker.Application\IssueTracker.Application.csproj" />
 </ItemGroup>
+<ItemGroup>
+  <Folder Include="Migrations\" />
+</ItemGroup>
 </Project>

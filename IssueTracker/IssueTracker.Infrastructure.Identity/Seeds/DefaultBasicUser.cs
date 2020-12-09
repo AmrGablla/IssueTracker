@@ -16,10 +16,8 @@ namespace IssueTracker.Infrastructure.Identity.Seeds
             //Seed Default User
             var defaultUser = new ApplicationUser
             {
-                UserName = "basicuser",
                 Email = "basicuser@gmail.com",
-                FirstName = "John",
-                LastName = "Doe",
+                FullName = "John",
                 EmailConfirmed = true,
                 PhoneNumberConfirmed = true
             };
