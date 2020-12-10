@@ -4,5 +4,12 @@
         <name>IssueTracker.WebApi</name>
     </assembly>
     <members>
+        <member name="M:IssueTracker.WebApi.Controllers.v1.ProjectController.Delete(System.Int32)">
+            <summary>
+            Deletes a specific TodoItem.
+            </summary>
+            
+            <param name="id"></param>   
+        </member>
     </members>
 </doc>

@@ -1,5 +1,5 @@
 ﻿using IssueTracker.Application.Behaviours;
-using IssueTracker.Application.Features.Products.Commands.CreateProduct;
+using IssueTracker.Application.Features.Projects.Commands.CreateProject;
 using AutoMapper;
 using FluentValidation;
 using MediatR;

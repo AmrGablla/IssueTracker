@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SkaKdaAqDQpOsAbIsdN2V8lkONJnyUKX2klfLwkHsoYODkBFVwLF9j/tolYfcj1GZVJ2SCB1SYfVnRXREAfvkw==",
+  "dgSpecHash": "3NnlXEqCPjH//Ii9RPLshD6umItPhdSckmMKFF9wC5Un3Jy+KdHl28dzuLMyOXxUprGn+w/7rXboCl4rjMij7Q==",
   "success": true,
   "projectFilePath": "D:\\IssueTracker\\IssueTracker\\IssueTracker.Infrastructure.Identity\\IssueTracker.Infrastructure.Identity.csproj",
   "expectedPackageFiles": [

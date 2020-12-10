@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace IssueTracker.Application.Features.Products.Queries.GetAllProducts
+namespace IssueTracker.Application.Features.Projects.Queries.GetAllProjects
 {
-    public class GetAllProductsViewModel
+    public class GetAllProjectsViewModel
     {
         public int Id { get; set; }
         public string Name { get; set; }

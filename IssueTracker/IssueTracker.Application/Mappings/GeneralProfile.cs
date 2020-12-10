@@ -1,5 +1,5 @@
-﻿using IssueTracker.Application.Features.Products.Commands.CreateProduct;
-using IssueTracker.Application.Features.Products.Queries.GetAllProducts;
+﻿using IssueTracker.Application.Features.Projects.Commands.CreateProject;
+using IssueTracker.Application.Features.Projects.Queries.GetAllProjects;
 using AutoMapper;
 using IssueTracker.Domain.Entities;
 using System;
@@ -12,9 +12,9 @@ namespace IssueTracker.Application.Mappings
     {
         public GeneralProfile()
         {
-            CreateMap<Product, GetAllProductsViewModel>().ReverseMap();
-            CreateMap<CreateProductCommand, Product>();
-            CreateMap<GetAllProductsQuery, GetAllProductsParameter>();
+            CreateMap<Project, GetAllProjectsViewModel>().ReverseMap();
+            CreateMap<CreateProjectCommand, Project>();
+            CreateMap<GetAllProjectsQuery, GetAllProjectsParameter>();
         }
     }
 }

@@ -9,21 +9,21 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace IssueTracker.Application.Features.Products.Commands.CreateProduct
+namespace IssueTracker.Application.Features.Projects.Commands.CreateProject
 {
-    public class CreateProductCommandValidator : AbstractValidator<CreateProductCommand>
+    public class CreateProjectCommandValidator : AbstractValidator<CreateProjectCommand>
     {
-        private readonly IProductRepositoryAsync productRepository;
+        private readonly IProjectRepositoryAsync ProjectRepository;
 
-        public CreateProductCommandValidator(IProductRepositoryAsync productRepository)
+        public CreateProjectCommandValidator(IProjectRepositoryAsync ProjectRepository)
         {
-            this.productRepository = productRepository;
+            this.ProjectRepository = ProjectRepository;
 
             RuleFor(p => p.Barcode)
                 .NotEmpty().WithMessage("{PropertyName} is required.")
                 .NotNull()
                 .MaximumLength(50).WithMessage("{PropertyName} must not exceed 50 characters.")
-                .MustAsync(IsUniqueBarcode).WithMessage("{PropertyName} already exists.");
+                .WithMessage("{PropertyName} already exists.");
 
             RuleFor(p => p.Name)
                 .NotEmpty().WithMessage("{PropertyName} is required.")
@@ -32,9 +32,9 @@ namespace IssueTracker.Application.Features.Products.Commands.CreateProduct
 
         }
 
-        private async Task<bool> IsUniqueBarcode(string barcode, CancellationToken cancellationToken)
+        private bool IsUniqueBarcode(string barcode, CancellationToken cancellationToken)
         {
-            return await productRepository.IsUniqueBarcodeAsync(barcode);
+            return true;
         }
     }
 }

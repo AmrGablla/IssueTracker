@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uVO5WYKlGqyavTkxzC/19AxD+3s8R+lcy6Cgj+wuiL0VASueHjlaLvSG0VlIiCc/ZlrSkxVvEr/NQskQeCu2Hw==",
+  "dgSpecHash": "oy3viMlpBfcBh5HJoB2SEJIBGyUQ0EzGPIMdCqQYnM76p5ANrh7vr38WAr4E/BKj+owEsVL1LPglCVWaJq7nRw==",
   "success": true,
   "projectFilePath": "D:\\IssueTracker\\IssueTracker\\IssueTracker.Infrastructure.Persistence\\IssueTracker.Infrastructure.Persistence.csproj",
   "expectedPackageFiles": [

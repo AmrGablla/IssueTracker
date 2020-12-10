@@ -9,3 +9,4 @@ D:\IssueTracker\IssueTracker\IssueTracker.Domain\obj\Debug\net5.0\IssueTracker.D
 D:\IssueTracker\IssueTracker\IssueTracker.Domain\obj\Debug\net5.0\IssueTracker.Domain.dll
 D:\IssueTracker\IssueTracker\IssueTracker.Domain\obj\Debug\net5.0\ref\IssueTracker.Domain.dll
 D:\IssueTracker\IssueTracker\IssueTracker.Domain\obj\Debug\net5.0\IssueTracker.Domain.pdb
+D:\IssueTracker\IssueTracker\IssueTracker.Domain\obj\Debug\net5.0\IssueTracker.Domain.csprojAssemblyReference.cache

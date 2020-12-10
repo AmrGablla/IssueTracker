@@ -3,7 +3,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace IssueTracker.WebApi.Extensions
@@ -36,6 +38,11 @@ namespace IssueTracker.WebApi.Extensions
                     BearerFormat = "JWT",
                     Description = "Input your Bearer token in this format - Bearer {your token here} to access this API",
                 });
+
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
+
                 c.AddSecurityRequirement(new OpenApiSecurityRequirement
                 {
                     {
@@ -51,6 +58,7 @@ namespace IssueTracker.WebApi.Extensions
                             In = ParameterLocation.Header,
                         }, new List<string>()
                     },
+
                 });
             });
         }
