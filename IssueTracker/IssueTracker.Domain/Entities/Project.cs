@@ -15,6 +15,7 @@ namespace IssueTracker.Domain.Entities
         public string Key { get; set; }
         public string Description { get; set; }
         public string OwnerId { get; set; }
+        public ApplicationUser Owner { get; set; }
 
         public ICollection<Issue> Issues { get; set; }
     }

@@ -24,8 +24,4 @@
     <ProjectReference Include="..\IssueTracker.Domain\IssueTracker.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Migrations\" />
-  </ItemGroup>
-
 </Project>

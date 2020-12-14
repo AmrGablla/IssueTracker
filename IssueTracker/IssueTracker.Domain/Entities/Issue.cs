@@ -12,7 +12,9 @@ namespace IssueTracker.Domain.Entities
         public string Title { get; set; }
         public string Description { get; set; }
         public string ReporterId { get; set; }
+        public ApplicationUser Reporter { get; set; }
         public string AssigneeId { get; set; }
+        public ApplicationUser Assignee { get; set; }
         public int Status { get; set; }
         public int IssueType { get; set; }
     }
