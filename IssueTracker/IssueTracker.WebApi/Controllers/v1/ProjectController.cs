@@ -13,7 +13,11 @@ namespace IssueTracker.WebApi.Controllers.v1
     [ApiVersion("1.0")]
     public class ProjectController : BaseApiController
     {
-        // GET: api/<controller>
+        /// <summary>
+        /// Get all projects
+        /// </summary>
+        /// <param name="filter"></param>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery] GetAllProjectsParameter filter)
         {
@@ -21,14 +25,22 @@ namespace IssueTracker.WebApi.Controllers.v1
             return Ok(await Mediator.Send(new GetAllProjectsQuery() { PageSize = filter.PageSize, PageNumber = filter.PageNumber }));
         }
 
-        // GET api/<controller>/5
+        /// <summary>
+        /// Get project by id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
             return Ok(await Mediator.Send(new GetProjectByIdQuery { Id = id }));
         }
 
-        // POST api/<controller>
+        /// <summary>
+        /// Create Project
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
         [HttpPost]
         [Authorize]
         public async Task<IActionResult> Post(CreateProjectCommand command)
@@ -36,7 +48,12 @@ namespace IssueTracker.WebApi.Controllers.v1
             return Ok(await Mediator.Send(command));
         }
 
-        // PUT api/<controller>/5
+        /// <summary>
+        /// Update Project
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="command"></param>
+        /// <returns></returns>
         [HttpPut("{id}")]
         [Authorize]
         public async Task<IActionResult> Put(int id, UpdateProjectCommand command)
@@ -53,8 +70,7 @@ namespace IssueTracker.WebApi.Controllers.v1
         /// Deletes a specific TodoItem.
         /// </summary>
         /// 
-        /// <param name="id"></param>   
-        // DELETE api/<controller>/5
+        /// <param name="id"></param>  
         [HttpDelete("{id}")]
         [Authorize]
         public async Task<IActionResult> Delete(int id)

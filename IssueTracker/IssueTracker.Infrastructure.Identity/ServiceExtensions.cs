@@ -1,10 +1,8 @@
-﻿using IssueTracker.Application.Exceptions;
-using IssueTracker.Application.Interfaces;
+﻿using IssueTracker.Application.Interfaces;
 using IssueTracker.Application.Wrappers;
+using IssueTracker.Domain;
 using IssueTracker.Domain.Settings;
 using IssueTracker.Infrastructure.Identity.Contexts;
-using IssueTracker.Infrastructure.Identity.Helpers;
-using IssueTracker.Infrastructure.Identity.Models;
 using IssueTracker.Infrastructure.Identity.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Http;
@@ -15,9 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using System;
-using System.Reflection.Metadata.Ecma335;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace IssueTracker.Infrastructure.Identity
 {

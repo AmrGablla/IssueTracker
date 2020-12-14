@@ -4,12 +4,41 @@
         <name>IssueTracker.WebApi</name>
     </assembly>
     <members>
+        <member name="M:IssueTracker.WebApi.Controllers.v1.ProjectController.Get(IssueTracker.Application.Features.Projects.Queries.GetAllProjects.GetAllProjectsParameter)">
+            <summary>
+            Get all projects
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IssueTracker.WebApi.Controllers.v1.ProjectController.Get(System.Int32)">
+            <summary>
+            Get project by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IssueTracker.WebApi.Controllers.v1.ProjectController.Post(IssueTracker.Application.Features.Projects.Commands.CreateProject.CreateProjectCommand)">
+            <summary>
+            Create Project
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IssueTracker.WebApi.Controllers.v1.ProjectController.Put(System.Int32,IssueTracker.Application.Features.Projects.Commands.UpdateProject.UpdateProjectCommand)">
+            <summary>
+            Update Project
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
         <member name="M:IssueTracker.WebApi.Controllers.v1.ProjectController.Delete(System.Int32)">
             <summary>
             Deletes a specific TodoItem.
             </summary>
             
-            <param name="id"></param>   
+            <param name="id"></param>  
         </member>
     </members>
 </doc>

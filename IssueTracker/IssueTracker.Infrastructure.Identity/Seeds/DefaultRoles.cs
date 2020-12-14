@@ -1,10 +1,7 @@
-﻿using IssueTracker.Infrastructure.Identity.Models;
-using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 using IssueTracker.Application.Enums;
+using IssueTracker.Domain;
 
 namespace IssueTracker.Infrastructure.Identity.Seeds
 {

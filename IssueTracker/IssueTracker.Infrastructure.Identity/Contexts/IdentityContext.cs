@@ -1,10 +1,7 @@
-﻿using IssueTracker.Infrastructure.Identity.Models;
+﻿using IssueTracker.Domain;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace IssueTracker.Infrastructure.Identity.Contexts
 {

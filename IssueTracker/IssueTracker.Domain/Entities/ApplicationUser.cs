@@ -1,10 +1,7 @@
-﻿using IssueTracker.Application.DTOs.Account;
-using Microsoft.AspNetCore.Identity;
-using System;
+﻿using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
-using System.Text;
 
-namespace IssueTracker.Infrastructure.Identity.Models
+namespace IssueTracker.Domain
 {
     public class ApplicationUser : IdentityUser
     {

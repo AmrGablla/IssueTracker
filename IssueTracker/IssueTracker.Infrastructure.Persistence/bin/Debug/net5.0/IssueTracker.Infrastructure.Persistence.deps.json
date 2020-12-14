@@ -1123,6 +1123,9 @@
         }
       },
       "IssueTracker.Domain/1.1.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0"
+        },
         "runtime": {
           "IssueTracker.Domain.dll": {}
         }

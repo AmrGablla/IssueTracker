@@ -4,25 +4,21 @@ using IssueTracker.Application.Interfaces;
 using IssueTracker.Application.Wrappers;
 using IssueTracker.Domain.Settings;
 using IssueTracker.Infrastructure.Identity.Helpers;
-using IssueTracker.Infrastructure.Identity.Models;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using Org.BouncyCastle.Ocsp;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
-using System.Net.Cache;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using IssueTracker.Application.Enums;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Primitives;
 using IssueTracker.Application.DTOs.Email;
+using IssueTracker.Domain;
 
 namespace IssueTracker.Infrastructure.Identity.Services
 {

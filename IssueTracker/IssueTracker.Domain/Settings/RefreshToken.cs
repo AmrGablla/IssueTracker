@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace IssueTracker.Application.DTOs.Account
+namespace IssueTracker.Domain
 {
     public class RefreshToken
     {

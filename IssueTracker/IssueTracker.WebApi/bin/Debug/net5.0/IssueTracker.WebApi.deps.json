@@ -2900,6 +2900,9 @@
         }
       },
       "IssueTracker.Domain/1.1.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0"
+        },
         "runtime": {
           "IssueTracker.Domain.dll": {}
         },
@@ -2912,7 +2915,6 @@
           "IssueTracker.Application": "1.1.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.0",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore.InMemory": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "5.0.0",
